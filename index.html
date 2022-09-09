@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Styled by Ruth</title>
+</head>
+<body>
+   <div>
+    <!-- navbar --> 
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand disabled">Styled by Ruth</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ml-auto me-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" onclick="navBarButton1()">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="navBarButton2()">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Inspiration
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#" onclick="navBarButton3()">Fall</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="navBarButton4()">Summer</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Shop</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   </div>
+       <!-- flexbox container 1 -->
+   <div class="flexbox-container-1">
+        <div class="flexbox-item flexbox-item-1a"></div>
+        <div class="flexbox-item flexbox-item-1b">Passion Combined With <br> Experience.</div>
+    </div>
+    <!-- <div class="flexbox-container-2">
+      <div class="flexbox-item flexbox-item-2a">piccccccccc</div>
+      <div class="flexbox-item flexbox-item-2b">Piccccccccc</div>
+      <div class="flexbox-item flexbox-item-2c">Piccccccccc</div>
+  </div> -->
+  <div class="image-container">
+  <div class="image" style="--clip-start: ellipse(0 0 at 0 0); --clip-end: ellipse(150% 150% at 0 0);"><img src="Screenshot_20220902-122206_Instagram.jpg"/><img src="Screenshot_20220902-122206_Instagram.jpg"/></div>
+  <div class="image" style="--clip-start: inset(100% 0 0 0); --clip-end: inset(0 0 0 0);"><img src="Screenshot_20220902-123123_Instagram.jpg"/><img src="Screenshot_20220902-123123_Instagram.jpg"/></div>
+  <div class="image" style="--clip-start: ellipse(0 0 at 100% 0); --clip-end: ellipse(150% 150% at 100% 0);"><img src="Screenshot_20220902-123113_Instagram.jpg"/><img src="Screenshot_20220902-123113_Instagram.jpg"/></div>
+</div>
+<!-- footermain -->
+<footer>
+  <div class="flexbox-container-footer">
+    <div class="flexbox-item flexbox-footer1">
+      <h3 class="footerheading">Contact Me</h3>
+        <ul class="footerlist1">
+          <li>Email:</li>
+        </ul>
+    </div>
+      <div class="flexbox-item flexbox-footer2">
+        <h3 class="footerheading2">Social</h3>
+          <ul class="footerlist2">
+            <li>
+              <a href="https://www.instagram.com/styldbyruth/"><img src="instalogo.jpg" style="width:40px%;height:40px;opacity:60%;"></a>
+            </li>
+          </ul>
+      </div>
+    </div>
+</div>
+</footer>
+  
+</body>
+</html>
